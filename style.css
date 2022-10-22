@@ -53,3 +53,24 @@ body {
 .menu li a{
     text-decoration: none;
 }
+
+.content-table{
+    background-color: rgb(66 125 181);
+    min-height: 300px;
+    padding: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-table thead tr th{
+    background-color: white;
+}
+
+.wrapper div ul li a{
+    color: black;
+}

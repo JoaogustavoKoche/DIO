@@ -74,3 +74,42 @@ body {
 .wrapper div ul li a{
     color: black;
 }
+
+
+.content-contact{
+    background-color: rgb(66 125 181);
+    min-height: 300px;
+    padding: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content-contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-contact form div#input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-contact form div#button{
+    display: block;
+    padding: 15px 15px 15px 15px;
+}
+
+
+.content-contact div#iframe{
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-contact div#iframe{
+    margin: 30px;
+}
